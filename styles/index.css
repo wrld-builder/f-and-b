@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+/* reset styles ended */
+
+header {
+    background-color: #1D2F30;
+    padding: 1%;
+}
+
+header > div {
+    color: #FFFFFF;
+}
+
+.hr-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header-catalog-elem {
+    margin-right: 5%;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: medium;
+    white-space: nowrap;
+}
+
+.header-catalog-elem:hover {
+    color: #BAE249;
+}
+
+.text {
+    font-family: sans-serif;
+}
+
+.log-in > path, .search > path {
+    stroke: #BAE249;
+}
+
+.log-in:hover > path, .search:hover > path {
+    stroke: #91AC46;
+    transition: 0.3s ease;
+}
+
+.investigate {
+    display: inline-block;
+    cursor: pointer;
+    color: #BAE249;
+    margin-top: 2%;
+}
+
+.investigate:hover > svg > path {
+    fill: #91AC46;
+    transition: 0.3s ease;
+}
+
+.investigate:hover > b {
+    color: #91AC46;
+    transition: 0.3s ease;
+}
+
+.section-1 {
+    background: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url('../img/1_1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+.section-2 {
+    background-color: #1D2F30;
+}
+
+.cards-container-1 {
+    display: grid;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3%;
+    align-items: stretch;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border: 1px solid #0B1919;
+}
+
+.card-img-1 {
+    background-color: #0B1919;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-content-1 {
+    background-color: #1D2F30;
+    padding: 3%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-content-1 > h3 {
+    color: #FFFFFF;
+    font-family: Cormorant;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 1.5em;
+}
+
+.card-content-1 > p {
+    color: #899D9D;
+    font-family: sans-serif;
+    margin-bottom: 3%;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.card-content-1 > button {
+    color: #BAE249;
+    font-family: sans-serif;
+    padding: 3%;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.card-content-1 > button:hover {
+    background-color: #BAE249;
+    color: #0B1919;
+    transition: 0.3s ease;
+}
+
+.more-1 {
+    border: 1px solid #BAE249;
+}
+
+.page-changer-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.page-changer-1 > h3 {
+    font-family: Cormorant;
+    color: #FFFFFF;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.5em;
+}
+
+.page-changer-1 svg:hover > path {
+    fill: #BAE249;
+    transition: 0.3s ease;
+}
