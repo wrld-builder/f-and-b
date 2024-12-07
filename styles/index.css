@@ -88,12 +88,15 @@ legend {
 /* reset styles ended */
 
 header {
-    background-color: #1D2F30;
     padding: 1%;
 }
 
 header > div {
     color: #FFFFFF;
+}
+
+body {
+    background-color: #1D2F30;
 }
 
 .hr-container {
@@ -156,15 +159,11 @@ header > div {
     padding: 10%;
 }
 
-.section-2 {
-    background-color: #1D2F30;
-}
-
 .cards-container-1 {
     display: grid;
     padding-top: 3%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     grid-template-columns: repeat(4, 1fr);
     gap: 3%;
     align-items: stretch;
@@ -185,7 +184,6 @@ header > div {
 }
 
 .card-content-1 {
-    background-color: #1D2F30;
     padding: 3%;
     justify-content: space-between;
     display: flex;
@@ -246,4 +244,64 @@ header > div {
 .page-changer-1 svg:hover > path {
     fill: #BAE249;
     transition: 0.3s ease;
+}
+
+.section-3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 3%;
+}
+
+.section-3 > h2 {
+    font-family: Cormorant;
+    color: #FFFFFF;
+    font-size: 3em;
+}
+
+.section-3 > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-3 h3 {
+    font-family: Cormorant;
+}
+
+.section-3 p {
+    color: #506829;
+    line-height: 1.5;
+}
+
+.section-3 p, span {
+    font-family: sans-serif;
+}
+
+.section-3 span {
+    margin-right: 3%;
+}
+
+.section-3 div > div > div:hover {
+    color: #688B05;
+}
+
+.section-3 div > div > div:hover > svg > path {
+    fill: #688B05;
+}
+
+.section-3 div > div > div:hover > svg > path, .section-3 div > div > div:hover {
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.section-3 img {
+    max-width: 70%;
+    margin-right: 5%;
+}
+
+.section-3 > div > div {
+    background-color: #BAE249;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
