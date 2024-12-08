@@ -1,0 +1,226 @@
+@media (max-width: 480px) {
+    header {
+        padding: 1%;
+    }
+    
+    header > div {
+        color: #FFFFFF;
+    }
+    
+    body {
+        background-color: #1D2F30;
+    }
+
+    .biggest-collection {
+        font-family: Cormorant;
+        font-size: 3em;
+        color: #FFFFFF;
+    }
+
+    .just-part-of {
+        display: none;
+    }
+
+    .search-a {
+        margin-right: 5%;
+        cursor: pointer;
+    }
+    
+    .hr-container {
+        display: flex;
+        flex-direction: row;
+        padding: 3%;
+    }
+    
+    .logo {
+        margin-left: 10%;
+        margin-right: 45%;
+    }
+    
+    .header-catalog-elem {
+        display: none;
+    }
+    
+    .text {
+        font-family: sans-serif;
+    }
+    
+    .log-in > path, .search > path {
+        stroke: #BAE249;
+    }
+    
+    .log-in:hover > path, .search:hover > path {
+        stroke: #91AC46;
+        transition: 0.3s ease;
+    }
+    
+    .investigate {
+        display: inline-block;
+        cursor: pointer;
+        color: #BAE249;
+        margin-top: 2%;
+    }
+    
+    .investigate:hover > svg > path {
+        fill: #91AC46;
+        transition: 0.3s ease;
+    }
+    
+    .investigate:hover > b {
+        color: #91AC46;
+        transition: 0.3s ease;
+    }
+    
+    .section-1 {
+        background: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url('../img/1_1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 10%;
+    }
+    
+    .cards-container-1 {
+        display: grid;
+        padding-top: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3%;
+        align-items: stretch;
+    }
+    
+    .card-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        border: 1px solid #0B1919;
+        margin-top: 5%;
+    }
+
+    .cards-container-1 .card-1:not(:first-child) {
+        display: none;
+    }
+    
+    .card-img-1 {
+        background-color: #0B1919;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .card-content-1 {
+        padding: 3%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+    .card-content-1 > h3 {
+        color: #FFFFFF;
+        font-family: Cormorant;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        font-size: 1.5em;
+    }
+    
+    .card-content-1 > p {
+        color: #899D9D;
+        font-family: sans-serif;
+        margin-bottom: 3%;
+        line-height: 1.8;
+        flex-grow: 1;
+    }
+    
+    .card-content-1 > button {
+        color: #BAE249;
+        font-family: sans-serif;
+        padding: 3%;
+        cursor: pointer;
+        align-self: flex-start;
+    }
+    
+    .card-content-1 > button:hover {
+        background-color: #BAE249;
+        color: #0B1919;
+        transition: 0.3s ease;
+    }
+    
+    .more-1 {
+        border: 1px solid #BAE249;
+    }
+    
+    .page-changer-1 {
+        display: none;
+    }
+    
+    .section-3 {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 20%;
+        margin-bottom: 3%;
+    }
+    
+    .section-3 > h2, .section-4 > h2 {
+        font-family: Cormorant;
+        color: #FFFFFF;
+        font-size: 3em;
+        margin-bottom: 2%;
+    }
+    
+    .section-3 > div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-3 h3 {
+        font-family: Cormorant;
+    }
+    
+    .section-3 p {
+        color: #506829;
+        line-height: 1.5;
+    }
+    
+    .section-3 p, span {
+        font-family: sans-serif;
+    }
+    
+    .section-3 span {
+        margin-right: 3%;
+    }
+    
+    .section-3 div > div > div:hover {
+        color: #688B05;
+    }
+    
+    .section-3 div > div > div:hover > svg > path {
+        fill: #688B05;
+    }
+    
+    .section-3 div > div > div:hover > svg > path, .section-3 div > div > div:hover {
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .section-3 img {
+        max-width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .section-3 > div > div {
+        background-color: #BAE249;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .section-4 {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
