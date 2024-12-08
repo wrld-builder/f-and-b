@@ -250,12 +250,14 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-.section-3 > h2 {
+.section-3 > h2, .section-4 > h2 {
     font-family: Cormorant;
     color: #FFFFFF;
     font-size: 3em;
+    margin-bottom: 2%;
 }
 
 .section-3 > div {
@@ -304,4 +306,80 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.section-4 {
+    background: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url('../img/1_1\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.section-4 p {
+    line-height: 2;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    width: 70%;
+    margin-bottom: 1.5%;
+}
+
+.section-4 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 form input {
+    background-color: #FFFFFF;
+    width: 30%;
+    font-family: sans-serif;
+    color: #899D9D;
+    padding: 1%;
+    margin-bottom: 1.5%;
+}
+
+.section-4 form button {
+    background-color: #BAE249;
+    color: #0B1919;
+    font-family: sans-serif;
+    padding: 1%;
+    width: 10%;
+}
+
+.section-4 form button:hover {
+    background-color: #91AC46;
+    transition: 0.3s ease;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B1919;
+    padding: 1%;
+}
+
+.social-icons a:hover path {
+    fill: #BAE249;
+    transition: 0.3s ease;
+}
+
+.social-icons a {
+    margin-right: 1.5%;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.copyright span {
+    color: #899D9D;
 }
